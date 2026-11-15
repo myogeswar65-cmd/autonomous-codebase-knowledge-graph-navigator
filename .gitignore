@@ -1,0 +1,56 @@
+# Environment variables and local configs
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+!.env.example
+!.env.production.example
+
+# Secrets, private keys, certificates, passwords
+secrets/
+nginx/certs/
+*.pem
+*.key
+*.password
+*.pwd
+*.cert
+*.crt
+
+# Local runtime databases and state storage
+/data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Git bare storage mirrors
+/git_storage/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Node / Frontend dependencies & temporary logs
+node_modules/
+frontend/node_modules/
+cloud-demo/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+scratch/
+.gemini/
